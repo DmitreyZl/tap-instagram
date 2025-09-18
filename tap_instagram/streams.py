@@ -479,7 +479,7 @@ class MediaInsightsStream(InstagramStream):
         elif media_product_type == 'REELS':
             return ['comments',
                                   'likes',
-                                  'plays',
+                                  #'plays',
                                   'reach',
                                   'saved',
                                   'shares',
